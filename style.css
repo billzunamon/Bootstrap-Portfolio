@@ -1,0 +1,25 @@
+
+.name{    background: #4aaaa5;
+		  
+}
+
+a h1{
+	color: white !important;
+}
+
+body{
+	background-image: dust_scratches.png;
+
+}
+
+.contLeft{
+	background: white;
+}
+
+.contfull{
+	background: blue;
+}
+
+.contright{
+	background: white;
+}

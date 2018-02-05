@@ -2,6 +2,7 @@
 <html lang="en-us">
 
 <head>
+  <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <meta charset="UTF-8">
   
@@ -15,24 +16,30 @@
 
 <body>
 
-  <header id="masthead">
-    
-    <div class="container">
-      <a href="index.html" id="logo">Your Name</a>
-      
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    
-    </div>
-  
-  </header>
+    <nav class="navbar navbar-light bg-light">
+       <div class="container">
+           <a class="navbar-brand name" href="#">
+               <h1 class="classH1">William Zunamon</h1>
+           </a>
 
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>Portfolio</h1>
+           <ul class="nav justify-content-end">
+               <li class="nav-item">
+                   <a class="nav-link active" href="index.html">About</a>
+               </li>
+               <li class="nav-item">
+                   <a class="nav-link" href="portfolio.html">Portfolio</a>
+               </li>
+               <li class="nav-item">
+                   <a class="nav-link" href="contact.html">Contact</a>
+               </li>
+           </ul>
+       </div>
+   </nav>
+
+
+ <div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4 text-center">Portfolio</h1>
 
       <div class="work">
         <img src="assets/images/technics-q-c-640-480-1.jpg" alt="hangman">
@@ -59,8 +66,13 @@
 
         <h3>Rock Paper Scissors</h3>
       </div>
+  </div>
+</div>
 
-    </section>
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Portfolio</h1>
+
 
     <section class="sidebar">
       <div id="connect">
